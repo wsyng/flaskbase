@@ -5,5 +5,4 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    # print(app.config['MAIL_FROM_EMAIL'])
     return render_template('index.html')
