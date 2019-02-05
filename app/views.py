@@ -6,4 +6,4 @@ from app import app
 @app.route('/index')
 def index():
     # print(app.config['MAIL_FROM_EMAIL'])
-    return "Hello"
+    return render_template('index.html')
